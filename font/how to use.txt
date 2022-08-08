@@ -1,0 +1,6 @@
+CSS 파일 안에 작성
+
+@font-face {
+  font-family: abster;
+  src: url(font/abster-webfont.woff) format("woff");
+}

@@ -1,0 +1,109 @@
+:root {
+  --text-color: white;
+}
+
+@font-face {
+  font-family: abster;
+  src: url(font/abster-webfont.woff) format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/sejong.png);
+}
+
+/* 
+
+
+
+
+
+
+----------- header -----------  */
+
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+  padding: 20px;
+}
+
+.container .header h1 a {
+  text-decoration: none;
+  font-family: abster;
+  color: var(--text-color);
+}
+
+.container .header .nav {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.container .header .nav a {
+  padding: 4px 8px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.container .header .nav a:hover {
+  box-shadow: 0 0 5px 1px;
+  border-radius: 10px;
+}
+/* 
+
+
+
+
+
+
+----------- hero -----------  */
+
+.container .hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.container .hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.container .hero button {
+  background: none;
+  border: 2px solid rgb(89, 221, 225);
+  padding: 12px 16px;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container .hero button:hover {
+  font-size: 19px;
+  background-color: rgba(92, 115, 143, 0.8);
+}
