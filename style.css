@@ -90,6 +90,7 @@
 .container .hero h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  letter-spacing: 3px;
 }
 
 .container .hero #dynamicText {
