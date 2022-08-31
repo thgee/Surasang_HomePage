@@ -1,22 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap");
+
 :root {
   --text-color: white;
-}
-
-@font-face {
-  font-family: abster;
-  src: url(font/abster-webfont.woff) format("woff");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Serif KR", serif;
 }
 
 .container {
   min-width: 100vw;
   min-height: 100vh;
-  background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+  background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(images/sejong.png);
 }
 
@@ -42,7 +40,6 @@
 
 .container .header h1 a {
   text-decoration: none;
-  font-family: abster;
   color: var(--text-color);
 }
 
