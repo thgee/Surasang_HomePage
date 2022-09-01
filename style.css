@@ -110,7 +110,18 @@
   display: none;
 }
 
-.container .hero button {
+/* 
+
+
+
+
+
+
+
+
+ main 버튼 제거해서 이제 필요없음 */
+
+/* .container .hero button {
   display: inline-block;
   background: none;
   border: 3px solid;
@@ -144,4 +155,4 @@
   100% {
     border-color: hotpink;
   }
-}
+} */
