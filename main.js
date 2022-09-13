@@ -1,6 +1,7 @@
 const target = document.querySelector("#dynamicText");
 
 let texts = [
+  "수라상",
   "혼밥 싫어",
   "배고파배고파배고파배고파",
   "소금구이 덮밥",
